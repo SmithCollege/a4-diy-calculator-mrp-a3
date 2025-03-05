@@ -1,0 +1,40 @@
+name: Autograding Tests
+'on':
+- push
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Postfix Tests
+      id: postfix-tests
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Postfix Tests
+        setup-command: ''
+        command: "./gradlew :app:test --tests PostfixTest"
+        timeout: 2
+        max-score: 3
+    - name: Infix Tests
+      id: infix-tests
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Infix Tests
+        setup-command: ''
+        command: "./gradlew :app:test --tests InfixTest"
+        timeout: 2
+        max-score: 2
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        POSTFIX-TESTS_RESULTS: "${{steps.postfix-tests.outputs.result}}"
+        INFIX-TESTS_RESULTS: "${{steps.infix-tests.outputs.result}}"
+      with:
+        runners: postfix-tests,infix-tests
