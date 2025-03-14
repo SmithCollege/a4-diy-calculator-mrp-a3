@@ -15,45 +15,45 @@ You should also make sure that your logic and ideas are clearly expressed to ful
 
 Postfix.java:
 
-_____ 1 pts: Pushes numeric tokens onto the stack
+YES 1 pts: Pushes numeric tokens onto the stack
 
-_____ 2 pts: Processes operators by popping & combining numbers
+YES 2 pts: Processes operators by popping & combining numbers
 
-_____ 2 pts: Produces correct answer to any valid postfix expression
+YES 2 pts: Produces correct answer to any valid postfix expression
 
-_____ 1 pts: Throws an exception with an informative error message in case of malformed expressions
+YES 1 pts: Throws an exception with an informative error message in case of malformed expressions
 
 
 Calculate.java:
 
-_____ 1 pts: Implements shunting-yard algorithm to produce queue of tokens
+YES 1 pts: Implements shunting-yard algorithm to produce queue of tokens
 
-_____ 1 pt: Output of shunt yard passed to postfix via queue
+YES 1 pt: Output of shunt yard passed to postfix via queue
 
-_____ 1 pt: Computes correct arithmetic results for +, -, *, and / operations
+YES 1 pt: Computes correct arithmetic results for +, -, *, and / operations
 
-_____ 1 pt: Properly handles operators with different associative properties (e.g. ^) using the full Wikipedia algorithm
+YES 1 pt: Properly handles operators with different associative properties (e.g. ^) using the full Wikipedia algorithm
 
 
 
 ## General Items:
 
-_____ 4 pts: Program compiles without errors or warnings
+YES 4 pts: Program compiles without errors or warnings
 
-_____ 2 pts: Executes fully & consistently without crashing (exception/freeze)
+YES 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-_____ 2 pt: Complies with style guidelines (missing items 1 pt each):
+YES 2 pt: Complies with style guidelines (missing items 1 pt each):
 
-      _____ Classes & class members all have Javadoc header comments
+      YES Classes & class members all have Javadoc header comments
 
-      _____ Clear and consistent indentation of bracketed sections
+      YES Clear and consistent indentation of bracketed sections
 
-      _____ Adheres to Java conventions on naming & capitalization
+      YES Adheres to Java conventions on naming & capitalization
 
-      _____ Methods & variables all have clear and accurate names
+      YES Methods & variables all have clear and accurate names
 
-      _____ Methods avoid confusing side effects
+      YES Methods avoid confusing side effects
 
-_____ 1 pt: All required files included with submission (including completed checklist file)
+YES 1 pt: All required files included with submission (including completed checklist file)
 
-_____ 1 pt: readme.md contains reflection on the assignment
+YES 1 pt: readme.md contains reflection on the assignment

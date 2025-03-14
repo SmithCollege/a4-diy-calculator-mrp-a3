@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="a4.InfixTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-13T23:10:26" hostname="Miriams-MacBook-Air-3.local" time="0.063">
+  <properties/>
+  <testcase name="testInfixThrowsException" classname="a4.InfixTest" time="0.012"/>
+  <testcase name="testExponent" classname="a4.InfixTest" time="0.018"/>
+  <testcase name="testParen" classname="a4.InfixTest" time="0.016"/>
+  <testcase name="testSimple" classname="a4.InfixTest" time="0.013"/>
+  <testcase name="testSingle" classname="a4.InfixTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
