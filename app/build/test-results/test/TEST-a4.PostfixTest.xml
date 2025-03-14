@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="a4.PostfixTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-03-13T23:10:26" hostname="Miriams-MacBook-Air-3.local" time="0.01">
+  <properties/>
+  <testcase name="testPostfixSingle" classname="a4.PostfixTest" time="0.001"/>
+  <testcase name="testPostfixCombo" classname="a4.PostfixTest" time="0.002"/>
+  <testcase name="testPostfixMinus" classname="a4.PostfixTest" time="0.001"/>
+  <testcase name="testPostfixTimes" classname="a4.PostfixTest" time="0.001"/>
+  <testcase name="testPostfixThrowsException" classname="a4.PostfixTest" time="0.0"/>
+  <testcase name="testPostfixDiv" classname="a4.PostfixTest" time="0.002"/>
+  <testcase name="testPostfixPlus" classname="a4.PostfixTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
